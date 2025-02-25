@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% include 'book_detail.html' %}
+{% block content %}
+{% load static %}
+<h1><b>Book Details</b></h1>
+{% for book in books %}
+
+<ul class="link">
+<h1><a href="{% url 'book_detail' book.id %}">{{book.title}}</a></h1>
+<br>
+</ul>
+{% endfor %}
+
+{% endblock %}

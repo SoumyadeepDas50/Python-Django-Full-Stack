@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Default title{% endblock title %}</title>
+<link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+</head>
+<body>
+    {% block content %}
+
+    {% endblock content %}
+    <script src="{% static 'Js/jquery.min.js' %}"></script>
+    <script src="{% static 'Js/popper.min.js' %}"></script>
+    <script src="{% static 'Js/bootstrap.min.js' %}"></script>
+</body>
+</html>

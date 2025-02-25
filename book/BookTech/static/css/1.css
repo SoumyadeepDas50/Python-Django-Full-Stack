@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+    overflow:hidden;
+}
+.jumbotron{
+    padding:50px;
+    margin-bottom: 30px;
+}
+a:hover{
+    background-color: yellow;
+}

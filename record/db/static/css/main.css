@@ -1,0 +1,27 @@
+body {
+  background-color: skyblue;
+}
+<style>
+
+		logo{
+		}
+
+		body{
+			background-color: skyblue;
+		}
+
+
+		#total-orders{
+			background-color: greenyellow;
+		}
+
+
+		#orders-delivered{
+			background-color: orange;
+		}
+
+		#orders-pending{
+			background-color: fuchsia;
+		}
+
+</style>
